@@ -7,12 +7,14 @@ import { RightSidebar } from './components/right-sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-primary">
       <Header />
 
-      <LeftSidebar />
-      <Main />
-      <RightSidebar />
+      <div className='relative flex justify-between max-w-[1600px] mx-auto flex-wrap gap-x-12'>
+        <LeftSidebar />
+        <Main />
+        <RightSidebar />
+      </div>
     </div>
   );
 }
