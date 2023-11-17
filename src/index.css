@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 html, body, #root, .App {
-    height: 100%;
+    min-height: 100vh;
     color: #ffffff;
+}
+
+body * {
+    transition: all .25s;
 }

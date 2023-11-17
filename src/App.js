@@ -10,7 +10,7 @@ function App() {
     <div className="App bg-primary">
       <Header />
 
-      <div className='flex items-center justify-between max-w-[1600px] mx-auto flex-wrap gap-x-12'>
+      <div className='relative flex justify-between max-w-[1600px] mx-auto flex-wrap gap-x-12'>
         <LeftSidebar />
         <Main />
         <RightSidebar />
