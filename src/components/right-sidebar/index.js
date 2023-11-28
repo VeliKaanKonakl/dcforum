@@ -1,7 +1,11 @@
 import React from "react";
 import { FaArrowRight, FaDribbble } from "react-icons/fa6";
 import { IoLogoBehance } from "react-icons/io5";
-//lg:w-[16vw] w-full
+
+
+//Meetups tarih content-> ortalanmadi
+//Podcasts basliklari sattir atlamiyor
+//Meetups ve Podcasts alt kisimlarina padding verilmesi gerekli
 
 export const RightSidebar = () => {
     return (
